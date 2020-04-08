@@ -38,7 +38,7 @@ echo "-----------------------------------------------"
 echo " Downloading Vactory CMS using composer ⏬ "
 echo "-----------------------------------------------"
 echo -e "${FG_C}${BG_C} EXECUTING ${NO_C} $COMPOSER create-project voidagency/vactory-decoupled-project ${DEST_DIR} --stability dev --no-interaction --remove-vcs --no-progress --prefer-dist\n\n"
-php -d memory_limit=-1 $COMPOSER create-project voidagency/vactory-decoupled-project ${DEST_DIR} --stability dev --no-interaction --remove-vcs --no-progress --prefer-dist -vvv
+php -d memory_limit=-1 $COMPOSER create-project voidagency/vactory-decoupled-project ${DEST_DIR} --stability dev --no-interaction --remove-vcs --no-progress --prefer-dist
 
 if [ $? -ne 0 ]; then
   echo -e "\n${FG_C}${EBG_C} ERROR ${NO_C} There was a problem building Vactory CMS using composer."
