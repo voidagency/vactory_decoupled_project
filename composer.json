@@ -27,7 +27,7 @@
         "drupal/core-recommended": "^9",
         "voidagency/vactory_decoupled": "dev-9.x-1.x",
         "cweagans/composer-patches": "^1.6",
-        "drush/drush": "^10.2.2",
+        "drush/drush": "^10.2.2"
     },
     "require-dev": {
         "drupal/core-dev": "^9",
