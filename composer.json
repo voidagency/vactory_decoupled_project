@@ -1,78 +1,86 @@
 {
-  "name": "voidagency/vactory-decoupled-project",
-  "description": "Project template for Vactory Decoupled.",
-  "type": "project",
-  "license": "GPL-2.0-or-later",
-  "authors": [
-    {
-      "name": "Hamza Bahlaouane",
-      "email": "bahlaouane.hamza1@gmail.com"
-    }
-  ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
-    }
-  ],
-  "require": {
-    "voidagency/vactory_decoupled": "dev-9.x-1.x",
-    "drupal-composer/drupal-scaffold": "^2.5",
-    "cweagans/composer-patches": "^1.6",
-    "vlucas/phpdotenv": "^2.4",
-    "drush/drush": "^10.2.2",
-    "composer/installers": "^1.2",
-    "webflo/drupal-finder": "^1.0.0",
-    "webmozart/path-util": "^2.3"
-  },
-  "require-dev": {
-    "vijaycs85/drupal-quality-checker": "^1.2"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true,
-  "autoload": {
-    "files": [
-      "load.environment.php"
-    ]
-  },
-  "scripts": {
-    "install:with-mysql": "scripts/install-mysql.sh",
-    "install:with-sqlite": "scripts/install-sqlite.sh"
-  },
-  "extra": {
-    "installer-paths": {
-      "web/core": [
-        "type:drupal-core"
+    "name": "voidagency/vactory-decoupled-project",
+    "description": "Project template for Vactory Decoupled.",
+    "type": "project",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://www.void.fr",
+    "authors": [
+        {
+          "name": "Hamza Bahlaouane",
+          "email": "bahlaouane.hamza1@gmail.com"
+        }
       ],
-      "web/libraries/{$name}": [
-        "type:drupal-library"
-      ],
-      "web/modules/contrib/{$name}": [
-        "type:drupal-module"
-      ],
-      "web/profiles/contrib/{$name}": [
-        "type:drupal-profile"
-      ],
-      "web/themes/contrib/{$name}": [
-        "type:drupal-theme"
-      ],
-      "drush/contrib/{$name}": [
-        "type:drupal-drush"
-      ]
+    "support": {
+        "docs": "https://www.void.fr",
+        "chat": "https://www.void.fr"
     },
-    "drupal-scaffold": {
-      "initial": {
-        "sites/default/default.services.yml": "sites/default/services.yml",
-        "sites/default/default.settings.php": "sites/default/settings.php"
-      },
-      "omit-defaults": false
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "composer/installers": "^1.2",
+        "drupal/core-composer-scaffold": "^9",
+        "drupal/core-project-message": "^9",
+        "drupal/core-recommended": "^9",
+        "voidagency/vactory_decoupled": "dev-9.x-1.x",
+        "cweagans/composer-patches": "^1.6",
+        "drush/drush": "^10.2.2",
     },
+    "require-dev": {
+        "drupal/core-dev": "^9",
+        "vijaycs85/drupal-quality-checker": "^1.2"
+    },
+    "conflict": {
+        "drupal/drupal": "*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "install:with-mysql": "scripts/install-mysql.sh",
+        "install:with-sqlite": "scripts/install-sqlite.sh"
+    },
+    "extra": {
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "web/"
+            }
+        },
+        "installer-paths": {
+            "web/core": ["type:drupal-core"],
+            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/profiles/contrib/{$name}": ["type:drupal-profile"],
+            "web/themes/contrib/{$name}": ["type:drupal-theme"],
+            "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
+            "web/modules/custom/{$name}": ["type:drupal-custom-module"],
+            "web/themes/custom/{$name}": ["type:drupal-custom-theme"]
+        },
+        "drupal-core-project-message": {
+            "include-keys": ["homepage", "support"],
+            "post-create-project-cmd-message": [
+                "<bg=blue;fg=white>                                                         </>",
+                "<bg=blue;fg=white>  Congratulations, you’ve installed the Vactory codebase  </>",
+                "<bg=blue;fg=white>  from the voidagency/vactory-decoupled-project template!          </>",
+                "<bg=blue;fg=white>                                                         </>",
+                "",
+                "<bg=yellow;fg=black>Next steps</>:",
+
+                "  * Install the site: TODO",
+                "  * Read the user guide: TODO",
+                "  * Get support: TODO",
+                "  * Get involved with the community:",
+                "      TODO",
+                "  * Remove the plugin that prints this message:",
+                "      composer remove drupal/core-project-message"
+            ]
+        },
     "enable-patching": true,
     "patches": {}
-  },
-  "config": {
-    "preferred-install": {
-      "*": "auto"
     }
-  }
 }
