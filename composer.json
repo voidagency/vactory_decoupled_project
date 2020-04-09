@@ -22,15 +22,15 @@
     ],
     "require": {
         "composer/installers": "^1.2",
-        "drupal/core-composer-scaffold": "^9",
-        "drupal/core-project-message": "^9",
-        "drupal/core-recommended": "^9",
-        "voidagency/vactory_decoupled": "dev-9.x-1.x",
+        "drupal/core-composer-scaffold": "^8.8",
+        "drupal/core-project-message": "^8.8",
+        "drupal/core-recommended": "^8.8",
         "cweagans/composer-patches": "^1.6",
-        "drush/drush": "^10.2.2"
+        "drush/drush": "^10.2.2",
+        "drupal/core": "^8.8.5"
     },
     "require-dev": {
-        "drupal/core-dev": "^9",
+        "drupal/core-dev": "^8.8",
         "vijaycs85/drupal-quality-checker": "^1.2"
     },
     "conflict": {
