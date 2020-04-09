@@ -41,10 +41,6 @@
     "config": {
         "sort-packages": true
     },
-    "scripts": {
-        "install:with-mysql": "scripts/install-mysql.sh",
-        "install:with-sqlite": "scripts/install-sqlite.sh"
-    },
     "extra": {
         "drupal-scaffold": {
             "locations": {
