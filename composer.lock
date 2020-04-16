@@ -9454,12 +9454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "0880e02463252e3748edf15312856376001b4979"
+                "reference": "fb38efab853d184a9eaddb27312c7407752d8911"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/0880e02463252e3748edf15312856376001b4979",
-                "reference": "0880e02463252e3748edf15312856376001b4979",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/fb38efab853d184a9eaddb27312c7407752d8911",
+                "reference": "fb38efab853d184a9eaddb27312c7407752d8911",
                 "shasum": ""
             },
             "require": {
@@ -9474,7 +9474,7 @@
                 "drupal/block_class": "^1.1",
                 "drupal/block_field": "^1.0@alpha",
                 "drupal/captcha": "^1.0",
-                "drupal/coffee": "^1.0@beta",
+                "drupal/coffee": "^1.0.0",
                 "drupal/config_update": "^1.7",
                 "drupal/core": "^8.8.5",
                 "drupal/crop": "^2.1",
@@ -9486,7 +9486,7 @@
                 "drupal/entity": "^1.0",
                 "drupal/entity_embed": "^1.1",
                 "drupal/entity_reference_revisions": "^1.8",
-                "drupal/entityqueue": "^1.0@RC",
+                "drupal/entityqueue": "^1.0.0",
                 "drupal/features": "^3.8",
                 "drupal/field_group": "^3.0",
                 "drupal/file_entity": "^2.0@beta",
@@ -9571,7 +9571,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2020-04-16T01:00:42+00:00"
+            "time": "2020-04-16T02:40:08+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
