@@ -9454,12 +9454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "551d5572c29e4299f915bb15ce5e4c489e7d5bc5"
+                "reference": "0332a25960632177cde0e3244006928a2596a7d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/551d5572c29e4299f915bb15ce5e4c489e7d5bc5",
-                "reference": "551d5572c29e4299f915bb15ce5e4c489e7d5bc5",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/0332a25960632177cde0e3244006928a2596a7d2",
+                "reference": "0332a25960632177cde0e3244006928a2596a7d2",
                 "shasum": ""
             },
             "require": {
@@ -9571,7 +9571,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2020-04-12T23:21:04+00:00"
+            "time": "2020-04-16T00:17:19+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
