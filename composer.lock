@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7d89b2b702461120a63c4e22210486f",
+    "content-hash": "f7713e7a00b812e028e1d3d47089e351",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9454,12 +9454,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "fb38efab853d184a9eaddb27312c7407752d8911"
+                "reference": "f749149657d403a28bf9d94ee419d71a989c4d3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/fb38efab853d184a9eaddb27312c7407752d8911",
-                "reference": "fb38efab853d184a9eaddb27312c7407752d8911",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/f749149657d403a28bf9d94ee419d71a989c4d3b",
+                "reference": "f749149657d403a28bf9d94ee419d71a989c4d3b",
                 "shasum": ""
             },
             "require": {
@@ -9571,7 +9571,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2020-04-16T02:40:08+00:00"
+            "time": "2020-04-16T17:43:25+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
