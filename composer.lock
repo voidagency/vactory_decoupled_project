@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f7d89b2b702461120a63c4e22210486f",
+    "content-hash": "3d1dac544078a0aca53e7bb6fe84da29",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1755,6 +1755,9 @@
                         "[web-root]/profiles/README.txt": "assets/scaffold/files/profiles.README.txt",
                         "[web-root]/themes/README.txt": "assets/scaffold/files/themes.README.txt"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2996114: Argument 2 passed to {closure}() must be an instance of ResourceType, NULL given": "https://www.drupal.org/files/issues/2019-12-03/2996114-99.patch"
                 }
             },
             "autoload": {
