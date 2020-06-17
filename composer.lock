@@ -2145,6 +2145,79 @@
             }
         },
         {
+            "name": "drupal/default_content",
+            "version": "1.0.0-alpha9",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/default_content.git",
+                "reference": "8.x-1.0-alpha9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/default_content-8.x-1.0-alpha9.zip",
+                "reference": "8.x-1.0-alpha9",
+                "shasum": "e8d5cc6ae96b14e882852512fbf5887e752146a0"
+            },
+            "require": {
+                "drupal/core": "^8.7.7 || ^9"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-alpha9",
+                    "datestamp": "1588280141",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Sam152",
+                    "homepage": "https://www.drupal.org/user/1485048"
+                },
+                {
+                    "name": "andypost",
+                    "homepage": "https://www.drupal.org/user/118908"
+                },
+                {
+                    "name": "benjy",
+                    "homepage": "https://www.drupal.org/user/1852732"
+                },
+                {
+                    "name": "dawehner",
+                    "homepage": "https://www.drupal.org/user/99340"
+                },
+                {
+                    "name": "jibran",
+                    "homepage": "https://www.drupal.org/user/1198144"
+                },
+                {
+                    "name": "larowlan",
+                    "homepage": "https://www.drupal.org/user/395439"
+                }
+            ],
+            "description": "Imports default content when a module is enabled",
+            "homepage": "https://www.drupal.org/project/default_content",
+            "support": {
+                "source": "https://git.drupalcode.org/project/default_content"
+            }
+        },
+        {
             "name": "drupal/devel",
             "version": "2.1.0",
             "source": {
@@ -2324,20 +2397,20 @@
         },
         {
             "name": "drupal/email_registration",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/email_registration.git",
-                "reference": "8.x-1.0"
+                "reference": "8.x-1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/email_registration-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "f960f489f4273212b924a2d54e6cb8e43adb633e"
+                "url": "https://ftp.drupal.org/files/projects/email_registration-8.x-1.1.zip",
+                "reference": "8.x-1.1",
+                "shasum": "cc0eef597216a6d025d9017df104f2693b029f96"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8.7.7 || ^9"
             },
             "conflict": {
                 "drupal/commerce": "<2.12"
@@ -2347,12 +2420,9 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1580243964",
+                    "version": "8.x-1.1",
+                    "datestamp": "1592317072",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -2361,7 +2431,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -2388,7 +2458,7 @@
             "description": "Allows users to register with an email address as their username.",
             "homepage": "https://www.drupal.org/project/email_registration",
             "support": {
-                "source": "http://cgit.drupalcode.org/email_registration",
+                "source": "https://git.drupalcode.org/project/email_registration",
                 "issues": "http://drupal.org/project/issues/email_registration"
             }
         },
@@ -9900,12 +9970,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "a6e00fac5c72ad450b1a01dfc0a71285e6e30fad"
+                "reference": "81efa73d43a9280f4976201e7a11938d2d1ca7e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/a6e00fac5c72ad450b1a01dfc0a71285e6e30fad",
-                "reference": "a6e00fac5c72ad450b1a01dfc0a71285e6e30fad",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/81efa73d43a9280f4976201e7a11938d2d1ca7e2",
+                "reference": "81efa73d43a9280f4976201e7a11938d2d1ca7e2",
                 "shasum": ""
             },
             "require": {
@@ -9925,10 +9995,11 @@
                 "drupal/core": "^8.8.5",
                 "drupal/crop": "^2.1",
                 "drupal/ctools": "^3.4",
+                "drupal/default_content": "^1.0.0-alpha9",
                 "drupal/devel": "^2.1",
                 "drupal/easy_install": "^10.4.0",
                 "drupal/editor_advanced_link": "^1.8.0",
-                "drupal/email_registration": "^1.0",
+                "drupal/email_registration": "^1.1.0",
                 "drupal/entity": "^1.0",
                 "drupal/entity_embed": "^1.1",
                 "drupal/entity_reference_revisions": "^1.8",
