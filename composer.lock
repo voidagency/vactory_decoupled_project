@@ -1757,7 +1757,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2996114: Argument 2 passed to {closure}() must be an instance of ResourceType, NULL given": "https://www.drupal.org/files/issues/2019-12-03/2996114-99.patch"
+                    "Issue #2996114: Argument 2 passed to {closure}() must be an instance of ResourceType, NULL given": "https://www.drupal.org/files/issues/2020-02-11/2996114-124.patch"
                 }
             },
             "autoload": {
@@ -4298,6 +4298,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Use media instead of file": "https://raw.githubusercontent.com/voidagency/vactory_decoupled/1.0.0/patches/migrate-file-import-media.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4462,9 +4465,6 @@
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-4.x": "4.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-4.5",
                     "datestamp": "1574693285",
@@ -4477,6 +4477,9 @@
                     "services": {
                         "drush.services.yml": "^9 || ^10"
                     }
+                },
+                "patches_applied": {
+                    "Issue #3099611: Class 'Drush\\Commands\\DrushCommands' not found": "https://www.drupal.org/files/issues/2019-12-11/3099611-15.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9970,12 +9973,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "223999c8674e1238824f7478072172b2a23f9790"
+                "reference": "4ccd3ebb44a61dbcb1c9ab5a1e095ec7e03f1e7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/223999c8674e1238824f7478072172b2a23f9790",
-                "reference": "223999c8674e1238824f7478072172b2a23f9790",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/4ccd3ebb44a61dbcb1c9ab5a1e095ec7e03f1e7b",
+                "reference": "4ccd3ebb44a61dbcb1c9ab5a1e095ec7e03f1e7b",
                 "shasum": ""
             },
             "require": {
@@ -10092,7 +10095,7 @@
                         "Issue #3099611: Class 'Drush\\Commands\\DrushCommands' not found": "https://www.drupal.org/files/issues/2019-12-11/3099611-15.patch"
                     },
                     "drupal/migrate_file": {
-                        "Use media instead of file": "patches/migrate-file-import-media.patch"
+                        "Use media instead of file": "https://raw.githubusercontent.com/voidagency/vactory_decoupled/1.0.0/patches/migrate-file-import-media.patch"
                     }
                 }
             },
@@ -10100,7 +10103,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2020-06-17T11:50:49+00:00"
+            "time": "2020-06-17T16:54:30+00:00"
         }
     ],
     "packages-dev": [
