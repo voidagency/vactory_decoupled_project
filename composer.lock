@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "85739400db34ea366166c77f276bf498",
+    "content-hash": "4d5f2689715fc7d0af81dc72d6a8b0c8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2175,6 +2175,9 @@
                     "services": {
                         "drush.services.yml": "^9"
                     }
+                },
+                "patches_applied": {
+                    "#2698425: Do not reimport existing entities": "https://www.drupal.org/files/issues/2020-02-05/2698425--accept-content-updates--122.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -2971,6 +2974,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "File rest upload PluginNotFoundException": "https://www.drupal.org/files/issues/2018-07-11/file-rest-upload-pluginnotfoundexception-error-2959947-8.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -4240,6 +4246,9 @@
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
                     }
+                },
+                "patches_applied": {
+                    "Issue #2945817: Support JSON API, REST, GraphQL and custom normalizations": "https://www.drupal.org/files/issues/2020-02-29/2945817-93.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
