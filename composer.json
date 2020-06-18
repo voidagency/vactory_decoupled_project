@@ -44,7 +44,12 @@
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
-            }
+            },
+            "initial": {
+                "sites/default/default.services.yml": "sites/default/services.yml",
+                "sites/default/default.settings.php": "sites/default/settings.php"
+            },
+            "omit-defaults": false
         },
         "installer-paths": {
             "web/core": ["type:drupal-core"],
