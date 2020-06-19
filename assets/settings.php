@@ -779,6 +779,13 @@ $settings['entity_update_backup'] = TRUE;
 $settings['migrate_node_migrate_type_classic'] = FALSE;
 
 /**
+ * Load vactory override configuration, if available.
+ */
+if (file_exists($app_root . '/' . $site_path . '/settings.vactory.php')) {
+  include $app_root . '/' . $site_path . '/settings.vactory.php';
+}
+
+/**
  * Load local development override configuration, if available.
  *
  * Use settings.local.php to override variables on secondary (staging,

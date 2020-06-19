@@ -26,7 +26,7 @@
         "drupal/core-composer-scaffold": "^8.9.1",
         "drupal/core-project-message": "^8.9.1",
         "drupal/core-recommended": "^8.9.1",
-        "voidagency/vactory_decoupled": "1.0.0.x-dev"
+        "voidagency/vactory_decoupled": "1.0.x-dev"
     },
     "require-dev": {
         "drupal/core-dev": "^8.9.1",
@@ -51,9 +51,9 @@
                     "path": "assets/settings.php",
                     "overwrite": false
                 },
-                "[web-root]/sites/default/settings.local.php": {
+                "[web-root]/sites/default/settings.vactory.php": {
                     "mode": "replace",
-                    "path": "assets/settings.local.php",
+                    "path": "assets/settings.vactory.php",
                     "overwrite": false
                 },
                 "[web-root]/sites/default/services.yml": {
