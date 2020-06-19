@@ -9982,12 +9982,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "4ccd3ebb44a61dbcb1c9ab5a1e095ec7e03f1e7b"
+                "reference": "c68c7057676a7a79acefdc93a7d76170d4c60c5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/4ccd3ebb44a61dbcb1c9ab5a1e095ec7e03f1e7b",
-                "reference": "4ccd3ebb44a61dbcb1c9ab5a1e095ec7e03f1e7b",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/c68c7057676a7a79acefdc93a7d76170d4c60c5c",
+                "reference": "c68c7057676a7a79acefdc93a7d76170d4c60c5c",
                 "shasum": ""
             },
             "require": {
@@ -10104,7 +10104,19 @@
                         "Issue #3099611: Class 'Drush\\Commands\\DrushCommands' not found": "https://www.drupal.org/files/issues/2019-12-11/3099611-15.patch"
                     },
                     "drupal/migrate_file": {
-                        "Use media instead of file": "https://raw.githubusercontent.com/voidagency/vactory_decoupled/1.0.0/patches/migrate-file-import-media.patch"
+                        "Use media instead of file": "https://raw.githubusercontent.com/voidagency/vactory_decoupled/1.0.x/patches/migrate-file-import-media.patch"
+                    },
+                    "drupal/default_content": {
+                        "#2698425: Do not reimport existing entities": "https://www.drupal.org/files/issues/2020-02-05/2698425--accept-content-updates--122.patch"
+                    },
+                    "drupal/simple_oauth": {
+                        "Auth revoke on profile update": "https://www.drupal.org/files/issues/simple_oauth-auth-revoke-2946882-11.patch"
+                    },
+                    "drupal/metatag": {
+                        "Issue #2945817: Support JSON API, REST, GraphQL and custom normalizations": "https://www.drupal.org/files/issues/2020-02-29/2945817-93.patch"
+                    },
+                    "drupal/file_entity": {
+                        "File rest upload PluginNotFoundException": "https://www.drupal.org/files/issues/2018-07-11/file-rest-upload-pluginnotfoundexception-error-2959947-8.patch"
                     }
                 }
             },
@@ -10112,7 +10124,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2020-06-17T16:54:30+00:00"
+            "time": "2020-06-19T00:15:58+00:00"
         }
     ],
     "packages-dev": [
