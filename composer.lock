@@ -946,6 +946,50 @@
             }
         },
         {
+            "name": "drupal/allowed_formats",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/allowed_formats.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/allowed_formats-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "50f8f80cf3326382c968521d34d3a113b37e32b3"
+            },
+            "require": {
+                "drupal/core": "^8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1573747386",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "floretan",
+                    "homepage": "https://www.drupal.org/user/66163"
+                }
+            ],
+            "description": "Limit which text formats are available for each field instance.",
+            "homepage": "https://www.drupal.org/project/allowed_formats",
+            "support": {
+                "source": "https://git.drupalcode.org/project/allowed_formats"
+            }
+        },
+        {
             "name": "drupal/auto_entityqueue",
             "version": "1.0.0",
             "source": {
@@ -4293,13 +4337,10 @@
                 "shasum": "4a24edc577541b5aa67682a4f89c8dfd7c0788d5"
             },
             "require": {
-                "drupal/core": "*"
+                "drupal/core": "^8"
             },
             "type": "drupal-module",
             "extra": {
-                "branch-alias": {
-                    "dev-1.x": "1.x-dev"
-                },
                 "drupal": {
                     "version": "8.x-1.1",
                     "datestamp": "1539064380",
@@ -4309,7 +4350,7 @@
                     }
                 },
                 "patches_applied": {
-                    "Use media instead of file": "https://raw.githubusercontent.com/voidagency/vactory_decoupled/1.0.0/patches/migrate-file-import-media.patch"
+                    "Use media instead of file": "https://gist.githubusercontent.com/Bahlaouane-Hamza/75c4390bc95a9a4cd4776aa8da49434b/raw/72a7c96a5d39bab68d64c397df190e50ba9e35a7/migrate-file-import-media.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -9982,12 +10023,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "c68c7057676a7a79acefdc93a7d76170d4c60c5c"
+                "reference": "7112da748374c60a565bdd99676b874464ef612e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/c68c7057676a7a79acefdc93a7d76170d4c60c5c",
-                "reference": "c68c7057676a7a79acefdc93a7d76170d4c60c5c",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/7112da748374c60a565bdd99676b874464ef612e",
+                "reference": "7112da748374c60a565bdd99676b874464ef612e",
                 "shasum": ""
             },
             "require": {
@@ -9995,6 +10036,7 @@
                 "cweagans/composer-patches": "^1.6",
                 "drupal/address": "^1.8",
                 "drupal/admin_toolbar": "^2.2",
+                "drupal/allowed_formats": "^1.2",
                 "drupal/auto_entityqueue": "^1.0",
                 "drupal/backup_migrate": "^4.1",
                 "drupal/better_passwords": "^1.0@beta",
@@ -10104,7 +10146,7 @@
                         "Issue #3099611: Class 'Drush\\Commands\\DrushCommands' not found": "https://www.drupal.org/files/issues/2019-12-11/3099611-15.patch"
                     },
                     "drupal/migrate_file": {
-                        "Use media instead of file": "https://raw.githubusercontent.com/voidagency/vactory_decoupled/1.0.x/patches/migrate-file-import-media.patch"
+                        "Use media instead of file": "https://gist.githubusercontent.com/Bahlaouane-Hamza/75c4390bc95a9a4cd4776aa8da49434b/raw/72a7c96a5d39bab68d64c397df190e50ba9e35a7/migrate-file-import-media.patch"
                     },
                     "drupal/default_content": {
                         "#2698425: Do not reimport existing entities": "https://www.drupal.org/files/issues/2020-02-05/2698425--accept-content-updates--122.patch"
@@ -10117,6 +10159,9 @@
                     },
                     "drupal/file_entity": {
                         "File rest upload PluginNotFoundException": "https://www.drupal.org/files/issues/2018-07-11/file-rest-upload-pluginnotfoundexception-error-2959947-8.patch"
+                    },
+                    "drupal/coffee": {
+                        "Issue #3128583: Could not load data": "https://gist.githubusercontent.com/Bahlaouane-Hamza/64899f332eb63cb701d5ed6473aa6442/raw/e8fec693f1f462c47e3de3f8cc85fefc8628c4ce/coffee-subfolder-3128583.patch"
                     }
                 }
             },
@@ -10124,7 +10169,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2020-06-19T00:15:58+00:00"
+            "time": "2020-06-19T13:52:50+00:00"
         }
     ],
     "packages-dev": [
