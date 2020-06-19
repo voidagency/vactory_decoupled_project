@@ -32,3 +32,14 @@ $config['system.file']['path']['temporary'] = '/tmp';
  * Path to translation files.
  */
 $config['locale.settings']['translation']['path'] = 'sites/default/files/translations';
+
+/**
+ * Default Salt.
+ */
+$settings['hash_salt'] = 'P6qFdKCJbZGT98t7PlxYlEOLLqKanlyT';
+
+/**
+ * Disable CSS and JS aggregation.
+ */
+$config['system.performance']['css']['preprocess'] = FALSE;
+$config['system.performance']['js']['preprocess'] = FALSE;
