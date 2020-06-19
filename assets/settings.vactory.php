@@ -27,3 +27,8 @@ $settings['file_public_path'] = 'sites/default/files';
  * File system temporary.
  */
 $config['system.file']['path']['temporary'] = '/tmp';
+
+/**
+ * Path to translation files.
+ */
+$config['locale.settings']['translation']['path'] = 'sites/default/files/translations';
