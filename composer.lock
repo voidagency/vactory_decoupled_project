@@ -1455,6 +1455,9 @@
                 },
                 "branch-alias": {
                     "dev-8.x-1.x": "8.1.x-dev"
+                },
+                "patches_applied": {
+                    "Issue #3128583: Could not load data": "https://gist.githubusercontent.com/Bahlaouane-Hamza/64899f332eb63cb701d5ed6473aa6442/raw/e8fec693f1f462c47e3de3f8cc85fefc8628c4ce/coffee-subfolder-3128583.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -10023,12 +10026,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "7112da748374c60a565bdd99676b874464ef612e"
+                "reference": "55874274cb0634fc961affa11305bcc987444883"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/7112da748374c60a565bdd99676b874464ef612e",
-                "reference": "7112da748374c60a565bdd99676b874464ef612e",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/55874274cb0634fc961affa11305bcc987444883",
+                "reference": "55874274cb0634fc961affa11305bcc987444883",
                 "shasum": ""
             },
             "require": {
@@ -10169,7 +10172,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2020-06-19T13:52:50+00:00"
+            "time": "2020-06-19T19:58:05+00:00"
         }
     ],
     "packages-dev": [
