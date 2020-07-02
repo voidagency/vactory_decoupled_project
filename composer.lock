@@ -1804,7 +1804,8 @@
                     }
                 },
                 "patches_applied": {
-                    "Issue #2996114: Argument 2 passed to {closure}() must be an instance of ResourceType, NULL given": "https://www.drupal.org/files/issues/2020-02-11/2996114-124.patch"
+                    "Issue #2996114: Argument 2 passed to {closure}() must be an instance of ResourceType, NULL given": "https://www.drupal.org/files/issues/2020-02-11/2996114-124.patch",
+                    "[regression] Impossible to filter for resources with an empty relationship object in JSON:API 2.x": "https://www.drupal.org/files/issues/2020-03-24/3025372-33.patch"
                 }
             },
             "autoload": {
@@ -10080,12 +10081,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/voidagency/vactory_decoupled.git",
-                "reference": "c7a465fa54c387f4bfdf904a04d85a293898d3df"
+                "reference": "a590f154478357c31cd9fe3ad31754f617b32ffe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/c7a465fa54c387f4bfdf904a04d85a293898d3df",
-                "reference": "c7a465fa54c387f4bfdf904a04d85a293898d3df",
+                "url": "https://api.github.com/repos/voidagency/vactory_decoupled/zipball/a590f154478357c31cd9fe3ad31754f617b32ffe",
+                "reference": "a590f154478357c31cd9fe3ad31754f617b32ffe",
                 "shasum": ""
             },
             "require": {
@@ -10228,7 +10229,7 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "time": "2020-06-21T20:50:30+00:00"
+            "time": "2020-07-02T12:54:05+00:00"
         }
     ],
     "packages-dev": [
